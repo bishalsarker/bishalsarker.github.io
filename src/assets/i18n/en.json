@@ -1,0 +1,122 @@
+{
+  "Header.Item1": "About Me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Services",
+  "Header.Item5": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "CV_Jose_Hernandez_Spanish.pdf",
+
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "I have <span class='underline'>6 years of experience</span> developing systems, products, technological solutions to make the web a better place. I build fast, secure, and scalable APIs using ASP.NET Core, PostgreSQL, and Azure/AWS—designed to power modern web, mobile, and SaaS platforms.",
+  "Banner.ActionBtn": "Contact Me",
+
+  "AboutMe.Title": "About Me",
+  "AboutMe.Paragraphs": [
+    "In over <span class='underline'>6 years of experience</span> in software development, I’ve taken on various roles including <span class='underline'>Backend Developer</span>, <span class='underline'>API Engineer</span>, and <span class='underline'>Cloud Solutions Architect</span>. I enjoy applying my technical knowledge to build solutions that are not only functional but scalable and impactful.",
+    "My strengths include designing clean, modular backend systems, optimizing application performance, implementing CI/CD pipelines, and integrating cloud services to enhance reliability and scalability. I’m always looking for ways to improve architecture, streamline deployment, and add meaningful value to the projects I’m involved in.",
+    "Outside of client work, I love creating personal tools, experimenting with new technologies, and sharing insights through my technical blog.",
+    "Some of the technologies I have trained and worked with include (but are not limited to):"
+  ],
+
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+      {
+      "Tab": "AGT",
+      "Title": "Senior Software Engineer",
+      "Date": "February 2025",
+      "Description": [
+        "Helping an insurance company in USA to scale and build a microservice based solution",
+        "Mitigated code and security flaws by using Veracode",
+        "Developing features and fixing bugs using MSSQL and .NET"
+      ]
+    },
+    {
+      "Tab": "STL",
+      "Title": "Senior Software Engineer",
+      "Date": "June 2024 - January 2025",
+      "Description": [
+        "Helped a healthcare company in USA to design and build their dynamic dashboard",
+        "Developed new features and improved architecture with microservices",
+        "Bug fixing for thier existing solution that uses ASP.NET and MSSQL",
+        "Helped an USA based NGO to build a survey application with ASP.NET and PostgreSQL"
+      ]
+    },
+    {
+      "Tab": "Astha IT",
+      "Title": "Software Engineer IV",
+      "Date": "June 2021 – June 2024",
+      "Description": [
+        "Built and maintained scalable backend services for multiple SaaS and e-commerce platforms",
+        "Led backend team for weavio.tech, managing billions of records per month",
+        "Integrated Zoom OAuth and Razorpay on stepout.pro",
+        "Migrated databases to AWS DynamoDB for transcomdigital.com",
+        "Developed RESTful APIs using .NET 6, Node.js, and Docker",
+        "Deployed services on AWS (EKS, EC2, SQS, Lambda) and Azure"
+      ]
+    },
+    {
+      "Tab": "STL",
+      "Title": "Associate Software Engineer",
+      "Date": "November 2019 – June 2021",
+      "Description": [
+        "Built microservices and admin consoles for IQVIA's notification platform",
+        "Developed modules for a workforce management tool used by DeWolff, Boberg & Associates",
+        "Performed bug fixing, performance optimization, and system enhancements",
+        "Worked with ASP.NET Core, Angular, PostgreSQL, and MongoDB"
+      ]
+    }
+  ],
+
+  "FeatureProjects.Title": "My Projects",
+  "FeatureProjects.Label": "Highlighted Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "WEAVIO",
+      "Description": "WEAVIO is an AI-powered RMG management solution developed in-house, where I served as Backend Team Lead. I designed a microservices architecture to manage large-scale production and HR data, optimized PostgreSQL queries to handle billions of records monthly, and implemented background processing with Hangfire alongside AWS SQS for high availability. The project showcased my skills in microservices design, database optimization, and scalable system architecture.",
+      "imgs": [
+        "assets/images/weavio/5.png",
+        "assets/images/weavio/3.webp",
+        "assets/images/weavio/2.webp",
+        "assets/images/weavio/1.webp"
+      ],
+      "Technologies": ["Microservice", "ASP.NET", "PostgreSQL", "AWS EC2", "Hangfire", "Redis"]
+    },
+    {
+      "Title": "Apex4U",
+      "Description": "Apex4U is an e-commerce platform developed for Apex Retail Chain, where I worked as a Backend Engineer. I integrated Algolia for real-time search, designed high-performance APIs to serve millions of users, and enabled omnichannel communication between physical and digital storefronts. The system was deployed using Docker and Kubernetes on AWS EKS, highlighting my expertise in API development, cloud infrastructure, and performance optimization.",
+      "imgs": [
+        "assets/images/apex/1.png",
+        "assets/images/apex/2.png"
+      ],
+      "Technologies": ["Microservice", "ASP.NET", "MongoDB", "Algolia", "AWS EKS", "Hangfire", "Redis"]
+    },
+    {
+      "Title": "Orchestrated Analytics",
+      "Description": "At IQVIA, a global leader in health information technology and clinical research, I contributed to the development of a notification microservice as part of a larger distributed system. I was responsible for building one of the core backend services and integrating it with other microservices, as well as developing an admin console for managing service configurations. This role allowed me to work on enterprise-grade solutions within a microservices architecture, demonstrating my skills in backend development, API integration, and system communication within a high-compliance, data-sensitive environment.",
+      "imgs": [
+        "assets/images/iqvia/1.png",
+        "assets/images/iqvia/3.png",
+        "assets/images/iqvia/4.jpg"
+      ],
+      "Technologies": ["Microservice", "ASP.NET", "MSSQL", "AWS EKS", "Hangfire", "Redis", "RabbitMQ"]
+    }
+  ],
+
+  "OtherProjects.Title": "Services & Products",
+  "OtherProjects.Projects": [
+    {
+      "Title": "REST API Development",
+      "Description": "I develop secure, scalable REST APIs using ASP.NET Core with clean architecture, JWT/OAuth authentication, and robust logging/error handling. Includes database integration, Swagger documentation, and deployment support for Azure or AWS.",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/andresjosehr/hands-game",
+      "demoLink": "https://www.fiverr.com/s/P2v0Weo",
+      "Technologies": ["Angular", "CSS GRID", "SASS", "Angular animations"]
+    }
+  ],
+
+  "Contact.Pretitle": "And... Now?",
+  "Contact.Title": "Say Hi!",
+  "Contact.Content": "I will be glad to hear from you if you want to discuss new opportunities. Let's talk, set up a call with me.",
+  "Contact.Btn": "Contact Me"
+}
